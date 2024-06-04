@@ -4,15 +4,7 @@
     require_once('layout/header.php');
 ?>
   <main id="main">
-    <!-- <div class="container mt-100">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Reviews</li>
-            </ol>
-          </nav>
-    </div> -->
-    <!-- ======= Breadcrumbs ======= -->
+   
     <section class="pt-0 pb-2 mt-100">
               <div class="container">
                 <div class="section-title pb-0 d-flex justify-content-between">
@@ -20,8 +12,7 @@
                 </div>
 
               </div>
-            </section><!-- End Breadcrumbs -->
-            <!-- ======= Portfolio Details Section ======= -->
+            </section>
             <section id="portfolio-details" class="portfolio-details">
               <div class="container">
                 <?php  if(isset($_GET['id'])){
@@ -150,7 +141,7 @@
                         }?>
                 </div>
               </div>
-            </section><!-- End Portfolio Details Section -->
+            </section>
 
   </main>
 
